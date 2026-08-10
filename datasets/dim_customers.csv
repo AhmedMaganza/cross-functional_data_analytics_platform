@@ -1,0 +1,101 @@
+customer_id,customer_name,segment,signup_date,location_id
+CUST-0001,Customer Enterprise 1,SME,2024-03-03,LOC-005
+CUST-0002,Customer Enterprise 2,Retail High Net-Worth,2024-12-17,LOC-010
+CUST-0003,Customer Enterprise 3,SME,2024-08-18,LOC-006
+CUST-0004,Customer Enterprise 4,SME,2024-08-28,LOC-007
+CUST-0005,Customer Enterprise 5,Corporate,2024-02-21,LOC-004
+CUST-0006,Customer Enterprise 6,Corporate,2024-04-05,LOC-007
+CUST-0007,Customer Enterprise 7,Corporate,2025-01-22,LOC-008
+CUST-0008,Customer Enterprise 8,Retail High Net-Worth,2024-08-09,LOC-001
+CUST-0009,Customer Enterprise 9,SME,2025-04-29,LOC-006
+CUST-0010,Customer Enterprise 10,SME,2025-02-10,LOC-008
+CUST-0011,Customer Enterprise 11,Corporate,2024-08-18,LOC-005
+CUST-0012,Customer Enterprise 12,Retail High Net-Worth,2024-08-24,LOC-004
+CUST-0013,Customer Enterprise 13,Retail High Net-Worth,2024-05-22,LOC-002
+CUST-0014,Customer Enterprise 14,Corporate,2024-06-19,LOC-006
+CUST-0015,Customer Enterprise 15,Corporate,2024-01-29,LOC-006
+CUST-0016,Customer Enterprise 16,Corporate,2024-02-05,LOC-001
+CUST-0017,Customer Enterprise 17,SME,2024-01-13,LOC-009
+CUST-0018,Customer Enterprise 18,SME,2024-06-08,LOC-006
+CUST-0019,Customer Enterprise 19,SME,2024-11-22,LOC-003
+CUST-0020,Customer Enterprise 20,Corporate,2024-07-05,LOC-004
+CUST-0021,Customer Enterprise 21,SME,2024-08-30,LOC-004
+CUST-0022,Customer Enterprise 22,Corporate,2024-03-26,LOC-003
+CUST-0023,Customer Enterprise 23,Corporate,2024-10-10,LOC-010
+CUST-0024,Customer Enterprise 24,SME,2024-03-06,LOC-003
+CUST-0025,Customer Enterprise 25,SME,2024-06-18,LOC-003
+CUST-0026,Customer Enterprise 26,SME,2024-02-14,LOC-004
+CUST-0027,Customer Enterprise 27,Corporate,2024-03-02,LOC-007
+CUST-0028,Customer Enterprise 28,SME,2025-03-16,LOC-004
+CUST-0029,Customer Enterprise 29,SME,2024-05-13,LOC-009
+CUST-0030,Customer Enterprise 30,Corporate,2024-10-10,LOC-001
+CUST-0031,Customer Enterprise 31,SME,2024-01-28,LOC-008
+CUST-0032,Customer Enterprise 32,Corporate,2024-04-17,LOC-007
+CUST-0033,Customer Enterprise 33,Corporate,2024-02-13,LOC-002
+CUST-0034,Customer Enterprise 34,Retail High Net-Worth,2024-12-05,LOC-008
+CUST-0035,Customer Enterprise 35,Retail High Net-Worth,2024-10-12,LOC-001
+CUST-0036,Customer Enterprise 36,Retail High Net-Worth,2025-03-21,LOC-009
+CUST-0037,Customer Enterprise 37,SME,2024-11-26,LOC-009
+CUST-0038,Customer Enterprise 38,Corporate,2024-05-07,LOC-002
+CUST-0039,Customer Enterprise 39,SME,2024-12-13,LOC-007
+CUST-0040,Customer Enterprise 40,SME,2025-04-17,LOC-010
+CUST-0041,Customer Enterprise 41,Corporate,2024-08-18,LOC-003
+CUST-0042,Customer Enterprise 42,SME,2024-07-08,LOC-007
+CUST-0043,Customer Enterprise 43,Corporate,2024-08-12,LOC-010
+CUST-0044,Customer Enterprise 44,Retail High Net-Worth,2025-01-19,LOC-009
+CUST-0045,Customer Enterprise 45,Corporate,2025-01-11,LOC-004
+CUST-0046,Customer Enterprise 46,SME,2024-10-09,LOC-001
+CUST-0047,Customer Enterprise 47,SME,2025-03-21,LOC-002
+CUST-0048,Customer Enterprise 48,SME,2024-04-30,LOC-001
+CUST-0049,Customer Enterprise 49,SME,2024-04-25,LOC-005
+CUST-0050,Customer Enterprise 50,Corporate,2025-04-05,LOC-005
+CUST-0051,Customer Enterprise 51,Retail High Net-Worth,2024-08-20,LOC-007
+CUST-0052,Customer Enterprise 52,SME,2024-09-15,LOC-009
+CUST-0053,Customer Enterprise 53,Retail High Net-Worth,2024-12-24,LOC-009
+CUST-0054,Customer Enterprise 54,Retail High Net-Worth,2024-07-16,LOC-003
+CUST-0055,Customer Enterprise 55,SME,2025-03-31,LOC-003
+CUST-0056,Customer Enterprise 56,Retail High Net-Worth,2025-02-14,LOC-003
+CUST-0057,Customer Enterprise 57,Corporate,2024-05-16,LOC-004
+CUST-0058,Customer Enterprise 58,Corporate,2024-11-13,LOC-008
+CUST-0059,Customer Enterprise 59,Corporate,2024-06-13,LOC-006
+CUST-0060,Customer Enterprise 60,SME,2024-08-12,LOC-008
+CUST-0061,Customer Enterprise 61,SME,2024-11-02,LOC-001
+CUST-0062,Customer Enterprise 62,Corporate,2024-08-21,LOC-008
+CUST-0063,Customer Enterprise 63,Retail High Net-Worth,2024-06-20,LOC-004
+CUST-0064,Customer Enterprise 64,SME,2024-05-31,LOC-001
+CUST-0065,Customer Enterprise 65,Corporate,2025-04-07,LOC-008
+CUST-0066,Customer Enterprise 66,SME,2024-11-10,LOC-004
+CUST-0067,Customer Enterprise 67,Corporate,2025-01-08,LOC-006
+CUST-0068,Customer Enterprise 68,Retail High Net-Worth,2024-06-08,LOC-008
+CUST-0069,Customer Enterprise 69,Corporate,2024-04-05,LOC-004
+CUST-0070,Customer Enterprise 70,Retail High Net-Worth,2025-04-16,LOC-003
+CUST-0071,Customer Enterprise 71,SME,2024-08-20,LOC-009
+CUST-0072,Customer Enterprise 72,Corporate,2024-06-28,LOC-003
+CUST-0073,Customer Enterprise 73,Corporate,2024-04-22,LOC-009
+CUST-0074,Customer Enterprise 74,Retail High Net-Worth,2024-11-13,LOC-002
+CUST-0075,Customer Enterprise 75,SME,2025-05-11,LOC-002
+CUST-0076,Customer Enterprise 76,SME,2025-03-17,LOC-002
+CUST-0077,Customer Enterprise 77,SME,2024-02-21,LOC-006
+CUST-0078,Customer Enterprise 78,Corporate,2024-09-24,LOC-003
+CUST-0079,Customer Enterprise 79,SME,2024-10-21,LOC-009
+CUST-0080,Customer Enterprise 80,Corporate,2025-01-20,LOC-004
+CUST-0081,Customer Enterprise 81,Retail High Net-Worth,2025-01-21,LOC-001
+CUST-0082,Customer Enterprise 82,SME,2024-04-22,LOC-004
+CUST-0083,Customer Enterprise 83,SME,2024-04-10,LOC-001
+CUST-0084,Customer Enterprise 84,Corporate,2024-04-22,LOC-005
+CUST-0085,Customer Enterprise 85,SME,2025-03-15,LOC-004
+CUST-0086,Customer Enterprise 86,SME,2024-03-21,LOC-008
+CUST-0087,Customer Enterprise 87,SME,2024-07-05,LOC-008
+CUST-0088,Customer Enterprise 88,SME,2024-04-22,LOC-007
+CUST-0089,Customer Enterprise 89,Retail High Net-Worth,2024-01-02,LOC-003
+CUST-0090,Customer Enterprise 90,SME,2024-05-09,LOC-001
+CUST-0091,Customer Enterprise 91,Corporate,2024-08-07,LOC-001
+CUST-0092,Customer Enterprise 92,SME,2024-02-23,LOC-003
+CUST-0093,Customer Enterprise 93,SME,2024-12-08,LOC-006
+CUST-0094,Customer Enterprise 94,SME,2025-04-29,LOC-007
+CUST-0095,Customer Enterprise 95,SME,2024-08-11,LOC-006
+CUST-0096,Customer Enterprise 96,SME,2024-08-12,LOC-006
+CUST-0097,Customer Enterprise 97,SME,2025-01-19,LOC-006
+CUST-0098,Customer Enterprise 98,SME,2025-02-06,LOC-003
+CUST-0099,Customer Enterprise 99,Corporate,2024-05-05,LOC-006
+CUST-0100,Customer Enterprise 100,Corporate,2024-05-09,LOC-008

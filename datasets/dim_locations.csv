@@ -1,0 +1,11 @@
+location_id,city,country,region
+LOC-001,Riyadh,KSA,Middle East
+LOC-002,Jeddah,KSA,Middle East
+LOC-003,Dammam,KSA,Middle East
+LOC-004,Dubai,UAE,Middle East
+LOC-005,Abu Dhabi,UAE,Middle East
+LOC-006,Doha,Qatar,Middle East
+LOC-007,Kuwait City,Kuwait,Middle East
+LOC-008,Muscat,Oman,Middle East
+LOC-009,Manama,Bahrain,Middle East
+LOC-010,Cairo,Egypt,North Africa
