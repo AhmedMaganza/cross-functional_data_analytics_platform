@@ -73,15 +73,14 @@ The main focus of the project is the implementation of the technical solution us
 * Data storytelling through visualization
 
 ## Project Roadmap
-
-| Phase       | Description                                  | Primary Focus                     | Status         |
-| ----------- | -------------------------------------------- | --------------------------------- | -------------- |
-| **1** | [Project Framing and Business Requirements](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_1_project_framing)     | **Business & BI Context**             | ✔ Completed |
-| **2** | [Data Profiling and Architecture](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling)                | **Data & Warehouse Foundation**       | ✔ Completed |
-| **3** | BigQuery SQL Modeling and Data Transformation  | **BigQuery / SQL**                | ✔ Completed |
-| **4** | Metric Validation and Deep-Dive SQL Analysis  | **SQL / Analytics**               | ✔ Completed |
-| **5** | Looker Studio Dashboard Engineering          | **Looker Studio**                 | ⏳ In Progress  |
-| **6** | Final Insights, Recommendations | **Technical Demonstration & Results** | ⏳ Pending      |
+| Phase                                  | Primary Focus                     | Status         |
+ | -------------------------------------------- | --------------------------------- | -------------- |
+| [Phase 1: Project Framing and Business Requirements](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_1_project_framing)     | **Business & BI Context**             | ✔ Completed |
+| [Phase 2: Data Profiling and Architecture](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling)                | **Data & Warehouse Foundation**       | ✔ Completed |
+| [Phase 3: BigQuery SQL Modeling and Data Transformation](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_3_sql_transformations)   | **BigQuery / SQL**                | ✔ Completed |
+| Phase 4: Deep-Dive SQL Analysis  | **SQL / Analytics**               | ⏳ In Progress  |
+| Phase 5: Looker Studio Dashboard Engineering          | **Looker Studio**                 | ⏳ Pending  |
+| Phase 6: Final Insights, Recommendations | **Technical Demonstration & Results** | ⏳ Pending     |
 
 > Each phase has its own README containing the specific work, exercises, decisions, and outputs for that stage.
 
@@ -111,22 +110,11 @@ Broader BI practices such as comprehensive business discovery, process discovery
 │   └── hr_employees.csv
 │
 ├── phase_1_project_framing/
-│   └── README.md
-│
 ├── phase_2_data_profiling/
-│   └── README.md
-│
 ├── phase_3_sql_transformations/
-│   └── README.md
-│
 ├── phase_4_deep_dive_analytics/
-│   └── README.md
-│
 ├── phase_5_dashboarding/
-│   └── README.md
-│
 ├── phase_6_final_reporting/
-│   └── README.md
 │
 ├── sql/
 │   ├── 01_data_profiling/
