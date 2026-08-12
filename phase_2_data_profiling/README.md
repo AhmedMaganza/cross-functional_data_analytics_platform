@@ -1,6 +1,6 @@
 # Phase 2: Data Profiling & Architecture
 
-## 📌 Phase Overview
+## Phase Overview
 Phase 2 establishes the data foundation for the analytics platform by loading the source datasets into **Google BigQuery**, inspecting their structure, profiling key fields, validating logical relationships, and defining the analytical data architecture.
 
 The objective of this phase is to understand the available data and assess its readiness for the SQL modeling and analytical stages that follow.
@@ -13,7 +13,7 @@ The source CSV files were loaded into **Google BigQuery** to establish the analy
 
 A dedicated dataset, `enterprise_dw`, was created to organize the enterprise data model. It contains **10 tables**, consisting of three shared dimension tables and seven domain-specific tables.
 
-<img width="348" height="581" alt="dataset_overview" src="https://github.com/user-attachments/assets/cf7377eb-77c9-4a74-ac27-839b17eff85d" />
+<img width="348" height="581" alt="dataset_overview" src="snapshots/dataset_overview.png" />
 
 ### Dataset Structure
 
@@ -51,7 +51,7 @@ The resulting metadata provides the structural foundation for understanding the 
 
 **SQL:** [`schema_inspection_query.sql`](../sql/01_data_profiling/schema_inspection_query.sql)
 
-<img width="783" height="476" alt="schema_inspection_query" src="https://github.com/user-attachments/assets/d9e4a582-be40-4065-bbc2-f46938f998f2" />
+<img width="783" height="476" alt="schema_inspection_query" src="snapshots/schema_inspection_query.png" />
 
 
 ### B. Dimension Primary-Key Health
@@ -74,7 +74,7 @@ This provides an initial assessment of whether the dimension keys can reliably s
 
 **SQL:** [`dim_tables_primary-key-healthsql.sql`](../sql/01_data_profiling/dim_tables_primary-key-healthsql.sql)
 
-<img width="915" height="667" alt="dim_tables_check" src="https://github.com/user-attachments/assets/657b01d4-70c3-4a3e-bd49-708c5ccc4fa0" />
+<img width="915" height="667" alt="dim_tables_check" src="snapshots/dim_tables_check.png" />
 
 
 ### C. Fact-to-Dimension Referential Integrity
@@ -99,7 +99,7 @@ The SQL returns an `orphan_count` for each tested fact-to-dimension relationship
 
 **SQL:** [`fact_tables_foreign_key_integrity.sql`](../sql/01_data_profiling/fact_tables_foreign_key_integrity.sql)
 
-<img width="1067" height="748" alt="fact_tables_audit" src="https://github.com/user-attachments/assets/9d829462-3074-4f39-ad9f-354c779711c8" />
+<img width="1067" height="748" alt="fact_tables_audit" src="snapshots/fact_tables_audit.png" />
 
 
 ### D. Data-Quality & Null Audits
@@ -122,7 +122,7 @@ These checks provide an initial layer of data-quality assessment before the data
 
 **SQL:** [`data-quality_and_null_audits.sql`](../sql/01_data_profiling/data-quality_and_null_audits.sql)
 
-<img width="947" height="765" alt="data_qulaity_null_audits" src="https://github.com/user-attachments/assets/b960db79-1f84-462e-9299-97ccdb89eb64" />
+<img width="947" height="765" alt="data_qulaity_null_audits" src="snapshots/data_qulaity_null_audits.png" />
 
 ## 3. Enterprise Data Warehouse Architecture
 
@@ -141,5 +141,16 @@ The resulting design follows a conformed dimensional / star-schema approach, whe
 Logical Entity Relationships
 
 The following ERD represents the logical relationships defined for the analytical model:
-<img width="1536" height="1024" alt="ERD" src="https://github.com/user-attachments/assets/5886b060-9b7d-42a2-ab0f-e690fd5357cb" />
+<img width="800" height="600" alt="ERD" src="snapshots/ERD.png" />
 
+## SQL Implementation
+
+The SQL implementation for this phase is maintained separately from the phase documentation.  
+```text
+sql/
+├── 01_data_profiling/
+│   ├── schema_inspection_query.sql
+│   ├── dim_tables_primary_key_health.sql
+│   ├── fact_tables_foreign_key_integrity.sql
+│   └── data_quality_and_null_audits.sql
+```

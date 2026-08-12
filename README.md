@@ -1,13 +1,13 @@
 # Cross-Functional Data Analytics Platform
 *A data warehousing and business intelligence solution built with Google BigQuery and visualized through Looker Studio.*
 
-## 📌 Project Overview
+## Project Overview
 
 Modern organizations generate data across multiple business functions, often leaving information fragmented across departmental systems and reporting tools. This fragmentation creates challenges in consolidating data, establishing consistent metrics, and producing reliable management reporting.
 
 This project demonstrates the **technical implementation of a cross-functional data analytics platform**, with a primary focus on **Google BigQuery and Looker Studio**. It emphasizes **technical implementation, SQL development, data modeling, analytical querying, and BI visualization**, rather than providing a complete demonstration of the broader BI consulting lifecycle.
 
-## 🎯 Project Purpose
+## Project Purpose
 The primary objective of this project is to demonstrate practical technical skills in:
 
 * Designing and working with a data warehouse in **Google BigQuery**.
@@ -22,7 +22,7 @@ The primary objective of this project is to demonstrate practical technical skil
 
 The business requirements and analytical context provide the foundation for the technical implementation, while **BigQuery and Looker Studio are the primary technologies demonstrated by the project**.
 
-## 🏢 Business Context
+## Business Context
 
 The project is based on a fictional multi-sector enterprise operating across:
 
@@ -47,7 +47,7 @@ The initial project-framing establishes the business context, stakeholders, repo
 
 The project does not attempt to demonstrate the full BI methodology across all domains. Instead, **Sales & Retail is used as the primary implementation domain for demonstrating the technical capabilities of the platform**.
 
-## 🎯 Implementation Scope
+## Implementation Scope
 
 The main focus of the project is the implementation of the technical solution using:
 
@@ -72,7 +72,7 @@ The main focus of the project is the implementation of the technical solution us
 * Business performance reporting
 * Data storytelling through visualization
 
-## 🗺️ Project Roadmap
+## Project Roadmap
 
 | Phase       | Description                                  | Primary Focus                     | Status         |
 | ----------- | -------------------------------------------- | --------------------------------- | -------------- |
@@ -85,14 +85,14 @@ The main focus of the project is the implementation of the technical solution us
 
 > Each phase has its own README containing the specific work, exercises, decisions, and outputs for that stage.
 
-## 📌 Project Positioning
+## Project Positioning
 This project is intentionally **technical in focus**.
 The business context and initial BI requirements provide the realistic foundation for the solution, but the project is primarily intended to demonstrate the ability to:  
 > **Take business requirements and data, build an analytical solution in BigQuery using SQL, and deliver the resulting information through Looker Studio.**
 
 Broader BI practices such as comprehensive business discovery, process discovery, KPI governance, requirements engineering, and enterprise BI methodology are outside the primary focus of this project and are demonstrated in greater depth through other projects.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -136,7 +136,7 @@ Broader BI practices such as comprehensive business discovery, process discovery
 │   │   └── data_quality_and_null_audits.sql
 │   │
 │   ├── 02_transformations/
-│   │   ├── ...
+│   │   └── vw_sales_performance.sql
 │   │
 │   └── 03_deep_dive_analysis/
 │       ├── ...
