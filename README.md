@@ -76,9 +76,9 @@ The main focus of the project is the implementation of the technical solution us
 | Phase                                  | Primary Focus                     | Status         |
  | -------------------------------------------- | --------------------------------- | -------------- |
 | [Phase 1: Project Framing and Business Requirements](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_1_project_framing)     | **Business & BI Context**             | ✔ Completed |
-| [Phase 2: Data Profiling and Architecture](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling)                | **Data & Warehouse Foundation**       | ✔ Completed |
-| [Phase 3: BigQuery SQL Modeling and Data Transformation](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_3_sql_transformations)   | **BigQuery / SQL**                | ✔ Completed |
-| Phase 4: Deep-Dive SQL Analysis  | **SQL / Analytics**               | ⏳ In Progress  |
+| [Phase 2: Data Profiling and Architecture](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling)                | **Data & Warehouse Foundation**       | ⏳ In Progress  |
+|Phase 3: BigQuery SQL Modeling and Data Transformation   | **BigQuery / SQL**                | ⏳ Pending  |
+| Phase 4: Deep-Dive SQL Analysis  | **SQL / Analytics**               | ⏳ Pending  |
 | Phase 5: Looker Studio Dashboard Engineering          | **Looker Studio**                 | ⏳ Pending  |
 | Phase 6: Final Insights, Recommendations | **Technical Demonstration & Results** | ⏳ Pending     |
 
@@ -110,24 +110,28 @@ Broader BI practices such as comprehensive business discovery, process discovery
 │   └── hr_employees.csv
 │
 ├── phase_1_project_framing/
+|   └── README.md
+|
 ├── phase_2_data_profiling/
+|       ├── README.md
+|       |
+│       ├── sql/
+│       │   ├── 01-Schema-Assessment.sql
+│       │   ├── 01-Schema-Assessment_null-check.sql
+│       │   ├── 02-Data-Profiling_tables_volume.sql
+│       │   └── 02-Data-Profiling_unique_keys.sql
+|       |
+│       ├── documentation/
+│       |   ├── 01_schema_data_inventory.md
+│       |   └── 02_data_profiling.md
+|       |
+│       └── snapshots/
+|            ├── ...
+|
 ├── phase_3_sql_transformations/
 ├── phase_4_deep_dive_analytics/
 ├── phase_5_dashboarding/
 ├── phase_6_final_reporting/
-│
-├── sql/
-│   ├── 01_data_profiling/
-│   │   ├── schema_inspection_query.sql
-│   │   ├── dim_tables_primary_key_health.sql
-│   │   ├── fact_tables_foreign_key_integrity.sql
-│   │   └── data_quality_and_null_audits.sql
-│   │
-│   ├── 02_transformations/
-│   │   └── vw_sales_performance.sql
-│   │
-│   └── 03_deep_dive_analysis/
-│       ├── ...
 │
 └── dashboards/
 ```
