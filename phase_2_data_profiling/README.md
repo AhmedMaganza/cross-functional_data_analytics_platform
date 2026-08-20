@@ -24,10 +24,10 @@ The warehouse is profiled broadly, while the **Sales & Retail domain** will be t
 ## Profiling Workflow
 
 ### 1. Schema & Data Inventory ✔
-Inspect tables, columns, data types, row counts, and candidate keys using BigQuery metadata and SQL. **[ [View Step Details](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_1_project_framing) ]**  
+Inspect tables, columns, data types, row counts, and candidate keys using BigQuery metadata and SQL. **[ [View Step Details](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/documentation/01_schema_data_inventory.md) ]**  
 
 ### 2. Data Profiling ⏳
-Analyze NULLs, duplicates, distinct values, distributions, ranges, and date coverage. **[ [View Step Details](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_1_project_framing) ]**  
+Analyze NULLs, duplicates, distinct values, distributions, ranges, and date coverage. **[ [View Step Details](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/documentation/02_data_profiling.md) ]**  
 
 ### 3. Data Quality Checks ⏳
 Evaluate completeness, uniqueness, validity, and consistency.

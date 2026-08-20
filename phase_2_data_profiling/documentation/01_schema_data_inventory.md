@@ -35,7 +35,7 @@ The assessment covered:
 * Table structure
 
 **All columns are currently defined as **nullable** in the BigQuery schema.** </br> 
-#### [`01-Schema-Assessment.sql`](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_1_project_framing) - [`01-Schema-Assessment_null-check.sql`](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_1_project_framing)
+#### [`01-Schema-Assessment.sql`](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/sql/01-Schema-Assessment.sql) - [`01-Schema-Assessment_null-check.sql`](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/sql/01-Schema-Assessment_null-check.sql)
 
 <img width="450" height="240" alt="image" src="../snapshots/01-Schema_schema-assessment-sql.png" /> </br>
 <img width="300" height="280" alt="image" src="../snapshots/01-Schema_schema-assessment-r1.png" /> </br>
