@@ -1,4 +1,4 @@
-# Phase 2: Data Profiling and Archetecture
+# Phase 2: Data Profiling and Architecture
 Phase 2 focuses on understanding and validating the data available in the Cross-Functional Data Analytics Platform before transforming it for analysis. Using **BigQuery and SQL**, the data will be profiled to identify data-quality issues, validate relationships, understand table grain, and assess analytical readiness.
 
 ## Objectives
@@ -26,19 +26,16 @@ The warehouse is profiled broadly, while the **Sales & Retail domain** will be t
 ### 1. Schema & Data Inventory ✔
 Inspect tables, columns, data types, row counts, and candidate keys using BigQuery metadata and SQL. **[ [View Step Details](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/documentation/01_schema_data_inventory.md) ]**  
 
-### 2. Data Profiling ⏳
+### 2. Data Profiling ✔
 Analyze NULLs, duplicates, distinct values, distributions, ranges, and date coverage. **[ [View Step Details](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/documentation/02_data_profiling.md) ]**  
 
-### 3. Data Quality Checks ⏳
-Evaluate completeness, uniqueness, validity, and consistency.
+### 3. Relationship Validation ✔
+Validate fact-to-dimension relationships, foreign keys, orphan records, cardinality, and table grain. **[ [View Step Details](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/documentation/03_relationship_validation.md) ]** 
 
-### 4. Relationship Validation ⏳
-Validate fact-to-dimension relationships, foreign keys, orphan records, cardinality, and table grain.
-
-### 5. Analytical Readiness ⏳
+### 4. Analytical Readiness ⏳
 Determine whether the data can support the business questions and KPIs established in Phase 1.
 
-### 6. Findings & Decisions ⏳
+### 5. Findings & Decisions ⏳
 Document significant issues, their analytical impact, and the required technical action.  
 
 ## Repository Structure for Phase 2

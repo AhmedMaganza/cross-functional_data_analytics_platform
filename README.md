@@ -36,12 +36,12 @@ The enterprise is represented through seven key business domains:
 | Domain                        | Project Scope                                 |
 | -------------------------- | --------------------------------------------- |
 | **Sales & Retail**         | **Selected for the technical implementation** |
-| **Projects & Contracting** | Enterprise business context                   |
-| **Operations**             | Enterprise business context                   |
-| **Marketing**              | Enterprise business context                   |
-| **Customer Support**       | Enterprise business context                   |
-| **Finance**                | Enterprise business context                   |
-| **Human Resources**        | Enterprise business context                   |
+| **Projects & Contracting** | Enterprise context                   |
+| **Operations**             | Enterprise context                   |
+| **Marketing**              | Enterprise context                   |
+| **Customer Support**       | Enterprise context                   |
+| **Finance**                | Enterprise context                   |
+| **Human Resources**        | Enterprise context                   |
 
 The initial project-framing establishes the business context, stakeholders, reporting needs, business questions, and KPI requirements necessary to define the technical solution.
 
@@ -53,8 +53,6 @@ The main focus of the project is the implementation of the technical solution us
 
 **Google BigQuery**
 
-* Data warehouse setup
-* Data loading
 * Data profiling
 * Data quality assessment
 * Data modeling
@@ -76,7 +74,7 @@ The main focus of the project is the implementation of the technical solution us
 | Phase                                  | Primary Focus                     | Status         |
  | -------------------------------------------- | --------------------------------- | -------------- |
 | [Phase 1: Project Framing and Business Requirements](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_1_project_framing)     | **Business & BI Context**             | ✔ Completed |
-| [Phase 2: Data Profiling and Architecture](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling)                | **Data & Warehouse Foundation**       | ⏳ In Progress  |
+| [Phase 2: BigQuery Data Profiling and Architecture](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling)                | **BigQuery / SQL**      | ⏳ In Progress  |
 |Phase 3: BigQuery SQL Modeling and Data Transformation   | **BigQuery / SQL**                | ⏳ Pending  |
 | Phase 4: Deep-Dive SQL Analysis  | **SQL / Analytics**               | ⏳ Pending  |
 | Phase 5: Looker Studio Dashboard Engineering          | **Looker Studio**                 | ⏳ Pending  |
@@ -94,46 +92,30 @@ Broader BI practices such as comprehensive business discovery, process discovery
 ## Repository Structure
 
 ```text
-.
-├── README.md
-│
-├── datasets/
-│   ├── dim_customers.csv
-│   ├── dim_locations.csv
-│   ├── dim_dates.csv
-│   ├── trade_and_retail.csv
-│   ├── hospitality_ops.csv
-│   ├── contracting_mgmt.csv
-│   ├── marketing_campaigns.csv
-│   ├── customer_service_tickets.csv
-│   ├── finance_ledger.csv
-│   └── hr_employees.csv
-│
+
 ├── phase_1_project_framing/
-|   └── README.md
-|
 ├── phase_2_data_profiling/
-|       ├── README.md
-|       |
 │       ├── sql/
-│       │   ├── 01-Schema-Assessment.sql
-│       │   ├── 01-Schema-Assessment_null-check.sql
-│       │   ├── 02-Data-Profiling_tables_volume.sql
-│       │   └── 02-Data-Profiling_unique_keys.sql
+│       │       ├── 01-Schema-Assessment.sql
+│       │       ├── 01-Schema-Assessment_null-check.sql
+│       │       ├── 02-Data-Profiling_tables_volume.sql
+│       │       └── 02-Data-Profiling_unique_keys.sql
 |       |
 │       ├── documentation/
-│       |   ├── 01_schema_data_inventory.md
-│       |   └── 02_data_profiling.md
+│       |       ├── 01_schema_data_inventory.md
+│       |       └── 02_data_profiling.md
 |       |
 │       └── snapshots/
-|            ├── ...
-|
+|               ├── ...
 ├── phase_3_sql_transformations/
 ├── phase_4_deep_dive_analytics/
 ├── phase_5_dashboarding/
 ├── phase_6_final_reporting/
-│
-└── dashboards/
+├── dashboards/
+|        ├── ...
+├── datasets/
+|         ├── ...
+└── README.MD
 ```
 
 >[!Note]
