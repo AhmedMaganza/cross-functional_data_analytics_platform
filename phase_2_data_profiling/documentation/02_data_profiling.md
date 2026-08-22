@@ -9,7 +9,7 @@ All profiling is performed using **BigQuery SQL** against the existing warehouse
 ### 1. Table Volume
 
 Measure the number of records in each warehouse table to establish the size and relative scale of the data.</br>
-> **SQL File: [`02-Data-Profiling_tables-volume.sql`](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/sql/02-Data-Profiling_tables-volume.sql)**
+> **SQL File: [`02-Data-Profiling_tables-volume.sql`](../sql/02-Data-Profiling_tables-volume.sql)**
 </br>
 
 <img width="400" height="450" alt="02-Data-Profiling_tables-volume" src="../snapshots/02-Data-Profiling_tables-volume.png" />
@@ -18,7 +18,7 @@ Measure the number of records in each warehouse table to establish the size and 
 ### 2. Key Uniqueness & Duplicates
 
 Evaluate candidate business keys and identify duplicate records while considering the expected grain of each table.</br>
-> **SQL File: [`02-Data-Profiling_unique_keys.sql`](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/sql/02-Data-Profiling_unique_keys.sql)** 
+> **SQL File: [`02-Data-Profiling_unique_keys.sql`](../sql/02-Data-Profiling_unique_keys.sql)** 
 </br>
 
 <img width="400" height="450" alt="image" src="../snapshots/02-Data-Profiling_unique_keys.png" />
@@ -35,13 +35,13 @@ Profile relevant measures using:
 * Negative values
 
 ***To Avoid repetitive work, this will be only applied to the `trade_and_retail` table.***
-> **SQL File: [`02-Data-Profiling_numeric_profiling.sql`](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/sql/02-Data-Profiling_numeric_profiling.sql)** 
+> **SQL File: [`02-Data-Profiling_numeric_profiling.sql`](../sql/02-Data-Profiling_numeric_profiling.sql)** 
 </br>
 
 <img width="600" height="350" alt="image" src="../snapshots/02-Data-Profiling_numeric_profiling.png" />
 
 
-### 4. Date Profiling (In-Progress⏳)
+### 4. Date Profiling
 
 Assess relevant date fields for:
 
@@ -50,7 +50,7 @@ Assess relevant date fields for:
 * Future dates
 
 **The trade_and_retail fact table does not store the calendar date directly. Instead, it contains a date_id that references dim_dates. Therefore, date coverage was profiled by joining `trade_and_retail` to `dim_dates`.**
-> **SQL File: [`02-Data-Profiling_date_profiling.sql`](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/sql/02-Data-Profiling_numeric_profiling.sql)**
+> **SQL File: [`02-Data-Profiling_date_profiling.sql`](../sql/02-Data-Profiling_numeric_profiling.sql)**
 
 </br>
 
@@ -60,7 +60,7 @@ Assess relevant date fields for:
 </br>
 <img width="500" height="400" alt="02-Data-Profiling_date_profiling_3" src="../snapshots/02-Data-Profiling_date_profiling_3.png" />
 
-### 5. Categorical Profiling (In-Progress⏳)
+### 5. Categorical Profiling
 
 Review important categorical fields to identify:
 
@@ -69,7 +69,7 @@ Review important categorical fields to identify:
 * Blank values
 * Potentially unexpected categories
 
-> **SQL File: [`02-Data-Profiling_categorical_profiling.sql`](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling/sql/02-Data-Profiling_categorical_profiling.sql)**
+> **SQL File: [`02-Data-Profiling_categorical_profiling.sql`](../sql/02-Data-Profiling_categorical_profiling.sql)**
 
 </br>
 

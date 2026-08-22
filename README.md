@@ -73,12 +73,12 @@ The main focus of the project is the implementation of the technical solution us
 ## Project Roadmap
 | Phase                                  | Primary Focus                     | Status         |
  | -------------------------------------------- | --------------------------------- | -------------- |
-| [Phase 1: Project Framing and Business Requirements](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_1_project_framing)     | **Business & BI Context**             | ✔ Completed |
-| [Phase 2: BigQuery Data Profiling and Architecture](https://github.com/AhmedMaganza/cross-functional_data_analytics_platform/tree/main/phase_2_data_profiling)                | **BigQuery / SQL**      | ⏳ In Progress  |
-|Phase 3: BigQuery SQL Modeling and Data Transformation   | **BigQuery / SQL**                | ⏳ Pending  |
-| Phase 4: Deep-Dive SQL Analysis  | **SQL / Analytics**               | ⏳ Pending  |
-| Phase 5: Looker Studio Dashboard Engineering          | **Looker Studio**                 | ⏳ Pending  |
-| Phase 6: Final Insights, Recommendations | **Technical Demonstration & Results** | ⏳ Pending     |
+| **Phase 1: Project Framing and Business Requirements.</br>[[View Documentation](phase_1_project_framing)]**  | **Business & BI Context**   | ✔ Completed |
+| **Phase 2: BigQuery Data Profiling and Architecture.</br>[[View Documentation](phase_2_data_profiling)]**  | **BigQuery / SQL**      | ✔ Completed   |
+| **Phase 3: BigQuery SQL Modeling and Data Transformation.</br>[[View Documentation](phase_3_bigquery_sql_modeling)]**  | **BigQuery / SQL**    | ⏳ In Progress  |
+| Phase 4: Deep-Dive SQL Analysis.  | **SQL / Analytics**     | ⏳ Pending  |
+| Phase 5: Looker Studio Dashboard Engineering.          | **Looker Studio**                 | ⏳ Pending  |
+| Phase 6: Final Insights, Recommendations. | **Technical Demonstration & Results** | ⏳ Pending    |
 
 > Each phase has its own README containing the specific work, exercises, decisions, and outputs for that stage.
 
@@ -96,14 +96,22 @@ Broader BI practices such as comprehensive business discovery, process discovery
 ├── phase_1_project_framing/
 ├── phase_2_data_profiling/
 │       ├── sql/
+│       │       ├── 01-Schema-Assessment_null_check.sql
 │       │       ├── 01-Schema-Assessment.sql
-│       │       ├── 01-Schema-Assessment_null-check.sql
+│       │       ├── 02-Data-Profiling_categorical_profiling.sql
+│       │       ├── 02-Data-Profiling_date_profiling.sql
+│       │       ├── 02-Data-Profiling_null-check.sql
+│       │       ├── 02-Data-Profiling_numeric-profiling.sql
 │       │       ├── 02-Data-Profiling_tables_volume.sql
-│       │       └── 02-Data-Profiling_unique_keys.sql
+│       │       ├── 02-Data-Profiling_unique_keys.sql
+│       │       ├── 03-Relationship-Validation_cardinality.sql
+│       │       └── 03-Relationship-Validation_foreign_key_integrity.sql
 |       |
 │       ├── documentation/
 │       |       ├── 01_schema_data_inventory.md
-│       |       └── 02_data_profiling.md
+│       |       ├── 02_data_profiling.md
+│       |       ├── 03_relationship_validation.md
+│       |       └── 04_analytical_readiness.md
 |       |
 │       └── snapshots/
 |               ├── ...
