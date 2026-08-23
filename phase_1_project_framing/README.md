@@ -39,4 +39,4 @@ Phase 1 establishes the analytical scope across the seven business domains by ma
 **Shared Dimension Tables:** `dim_customers`, `dim_locations`, `dim_dates`
 
 
-### Next: [[Phase 2: BigQuery Data Profiling and Architecture](../phase_2_data_profiling/README.md)]
+### Next: [[Phase 2: BigQuery Data Profiling and Architecture](../phase_2_data_profiling/)]
