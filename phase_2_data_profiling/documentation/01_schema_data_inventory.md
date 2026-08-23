@@ -62,6 +62,6 @@ The warehouse structure has been established and the initial completeness check 
 
 The data currently contains **no observed NULL values**, providing a clean baseline for the next profiling activities.
 
-### Next: [[Step 2: Data Profiling](02_data_profiling)]
+### Next: [[Step 2: Data Profiling](02_data_profiling.md)]
 
 
