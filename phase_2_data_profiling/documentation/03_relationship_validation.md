@@ -44,4 +44,4 @@ Relationship validation confirmed that the warehouse relationships are structura
 
 Overall, the current data model provides a reliable foundation for analysis and reporting.
 
-### Next: [[Step 4: Analytical Readiness](04_analytical_readiness)]
+### Next: [[Step 4: Analytical Readiness](04_analytical_readiness.md)]

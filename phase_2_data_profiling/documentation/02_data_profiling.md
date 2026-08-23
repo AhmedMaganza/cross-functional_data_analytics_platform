@@ -86,5 +86,5 @@ Table-level profiling showed that the warehouse data is structurally clean and c
 
 Overall, no immediate data-quality issues were identified that would prevent analysis.
 
-### Next: [[Step 3: Relationship Validation](03_relationship_validation)]
+### Next: [[Step 3: Relationship Validation](03_relationship_validation.md)]
 

@@ -53,4 +53,4 @@ The assessment also identified two analytical limitations:
 
 These limitations are documented rather than addressed through additional warehouse changes, keeping the project scope focused.
 
-### Next: [[Phase 3: BigQuery SQL Modeling and Data Transformation](../../phase_3_bigquery_sql_modeling/)]
+### Next: [[Phase 3: BigQuery SQL Modeling and Data Transformation](../../phase_3_bigquery_sql_modeling/README.md)]
