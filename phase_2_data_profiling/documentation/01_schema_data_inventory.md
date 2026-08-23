@@ -35,7 +35,9 @@ The assessment covered:
 * Table structure
 
 **All columns are currently defined as **nullable** in the BigQuery schema.** </br> 
-#### [`01-Schema-Assessment.sql`](../sql/01-Schema-Assessment.sql) - [`01-Schema-Assessment_null-check.sql`](../sql/01-Schema-Assessment_null-check.sql)
+
+> ### SQL Files: [`01-Schema-Assessment.sql`](../sql/01-Schema-Assessment.sql),  [`01-Schema-Assessment_null-check.sql`](../sql/01-Schema-Assessment_null-check.sql)
+</br>
 
 <img width="450" height="240" alt="image" src="../snapshots/01-Schema_schema-assessment-sql.png" /> </br>
 <img width="300" height="280" alt="image" src="../snapshots/01-Schema_schema-assessment-r1.png" /> </br>
@@ -59,4 +61,7 @@ The inventory and initial completeness assessment were performed using:
 The warehouse structure has been established and the initial completeness check has been completed.
 
 The data currently contains **no observed NULL values**, providing a clean baseline for the next profiling activities.
+
+### Next: [[Step 2: Data Profiling](02_data_profiling)]
+
 

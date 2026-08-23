@@ -85,3 +85,4 @@ Retention Rate = (Customers purchasing in Month N and Month N+1 / Customers purc
 * Centralize reusable business logic in BigQuery.
 * Build analytical outputs based on actual dashboard requirements.
 
+### Next: [[Step 2: Build the Base Analytical View](02_base-analytical_view.md)]

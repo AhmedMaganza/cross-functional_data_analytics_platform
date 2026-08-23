@@ -35,7 +35,7 @@ Key activities:
 
 
 
-### Step 2: Build the Base Analytical View (⏳In Progress)
+### Step 2: Build the Base Analytical View ✔
 
 Create the foundational transaction-level analytical view:
 
@@ -43,16 +43,15 @@ Create the foundational transaction-level analytical view:
 
 Key activities:
 
-* Join fact and dimension data
+* Enriches the sales transactions by joining fact and dimension data
 * Select and standardize required fields
-* Apply date logic
 * Calculate reusable metrics
 * Implement core sales business logic
 
 **[[View Documentation](documentation/02_base-analytical_view.md)]**
 
 
-### Step 3: Build Dashboard-Ready Analytical Views (⏳Pending)
+### Step 3: Build Dashboard-Ready Analytical Views (⏳In Progress)
 
 Create only the analytical views required to support the agreed Looker Studio dashboard.
 

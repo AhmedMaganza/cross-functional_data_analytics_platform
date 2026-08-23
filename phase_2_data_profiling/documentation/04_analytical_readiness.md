@@ -52,3 +52,5 @@ The assessment also identified two analytical limitations:
 * **Gross Margin %** cannot currently be calculated because it depends on Gross Profit and COGS.
 
 These limitations are documented rather than addressed through additional warehouse changes, keeping the project scope focused.
+
+### Next: [[Phase 3: BigQuery SQL Modeling and Data Transformation](../../phase_3_bigquery_sql_modeling/)]
