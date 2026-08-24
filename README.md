@@ -74,7 +74,7 @@ The main focus of the project is the implementation of the technical solution us
 | Phase                                  | Primary Focus                     | Status         |
  | -------------------------------------------- | --------------------------------- | -------------- |
 | **Phase 1: Project Framing and Business Requirements.</br>[[View Implementation Process](phase_1_project_framing)]**  | **Business & BI Context**   | ✔ Completed |
-| **Phase 2: BigQuery Data Profiling and Architecture.</br>[[View ImplemeImplementation Processntation](phase_2_data_profiling)]**  | **BigQuery / SQL**      | ✔ Completed   |
+| **Phase 2: BigQuery Data Profiling and Architecture.</br>[[View Implementation Process](phase_2_data_profiling)]**  | **BigQuery / SQL**      | ✔ Completed   |
 | **Phase 3: BigQuery SQL Modeling and Data Transformation.</br>[[View Implementation Process](phase_3_bigquery_sql_modeling)]**  | **BigQuery / SQL**    | ⏳ In Progress  |
 | **Phase 4: Deep-Dive SQL Analysis.**  | **SQL / Analytics**     | ⏳ Pending  |
 | **Phase 5: Looker Studio Dashboard Design.**          | **Looker Studio**                 | ⏳ Pending  |
