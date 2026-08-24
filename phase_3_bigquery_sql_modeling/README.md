@@ -100,9 +100,19 @@ Key checks include:
 
 ├── phase_3_bigquery_sql_modeling/
 │       ├── sql/
-|       |       ├── ...
+│       │       ├── 02_checks_sales_analysis_base.sql
+│       │       ├── 02_sql_sales_analysis_base.sql
+│       │       ├── 03_1_sql_vw_sales_monthly.sql
+│       │       └── 03_1_validation_vw_sales_monthly.sql
+|       |
 │       ├── documentation/
-|       |       ├── ...
+│       |       ├── 01_analytical_layer.md
+│       |       ├── 02_base-analytical_view.md
+│       |       ├── 03_dashboard_ready_views.md
+│       |       |        ├── 03_1_vw_sales_monthly.md
+│       |       |        ├── 03_2_vw_customer_analysis.md
+│       |       |        ├── 03_3_vw_location_analysis.md
+│       |       └── 04_analytical_layer_validation.md
 │       └── snapshots/
 |               ├── ...
 ```
