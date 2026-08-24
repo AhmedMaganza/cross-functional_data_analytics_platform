@@ -29,9 +29,9 @@ The views will demonstrate practical analytical SQL including:
 
 The views will be developed and validated individually:
 
-Build and validate `vw_sales_monthly` **[[View Implementation Process](documentation/03_1_vw_sales_monthly.md)]** ✔
+Build and validate `vw_sales_monthly` **[[View Implementation Process](03_1_vw_sales_monthly.md)]** ✔
 
-Build and validate `vw_customer_analysis` **[[View Implementation Process](documentation/03_2_vw_customer_analysis.md)]** ✔
+Build and validate `vw_customer_analysis` **[[View Implementation Process](03_2_vw_customer_analysis.md)]** ✔
    
 Build and validate `vw_location_analysis` (⏳Pending)
 
