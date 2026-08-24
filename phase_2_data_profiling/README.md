@@ -1,4 +1,4 @@
-# Phase 2: Data Profiling & Analytical Readiness
+# 🧭 Phase 2: Data Profiling & Analytical Readiness
 
 Phase 2 focuses on understanding and validating the data available in the data warehouse before transforming it for analysis. Using **BigQuery and SQL**, the data is profiled to identify data-quality issues, validate relationships, understand table grain, and assess analytical readiness.
 
@@ -37,19 +37,19 @@ The warehouse is profiled broadly, while the **Sales & Retail domain** will be t
 
 ### 1. Schema & Data Inventory
 
-Inspect tables, columns, data types, row counts, candidate keys, and NULL values using BigQuery metadata and SQL.</br> **[[View Documentation](documentation/01_schema_data_inventory.md)]**
+Inspect tables, columns, data types, row counts, candidate keys, and NULL values using BigQuery metadata and SQL.</br> **[[View Implementation Process](documentation/01_schema_data_inventory.md)]**
 
 ### 2. Data Profiling
 
-Analyze table volumes, duplicates, distinct values, distributions, numeric ranges, date coverage, and overall data-quality characteristics.</br> **[[View Documentation](documentation/02_data_profiling.md)]**
+Analyze table volumes, duplicates, distinct values, distributions, numeric ranges, date coverage, and overall data-quality characteristics.</br> **[[View Implementation Process](documentation/02_data_profiling.md)]**
 
 ### 3. Relationship Validation
 
-Validate fact-to-dimension relationships, foreign keys, orphan records, cardinality, and fact-table grain.</br> **[[View Documentation](documentation/03_relationship_validation.md)]**
+Validate fact-to-dimension relationships, foreign keys, orphan records, cardinality, and fact-table grain.</br> **[[View Implementation Process](documentation/03_relationship_validation.md)]**
 
 ### 4. Analytical Readiness
 
-Consolidate the findings from Steps 1–3 and assess whether the available data can support the business questions and KPIs established in Phase 1.</br> **[[View Documentation](documentation/04_analytical_readiness.md)]**
+Consolidate the findings from Steps 1–3 and assess whether the available data can support the business questions and KPIs established in Phase 1.</br> **[[View Implementation Process](documentation/04_analytical_readiness.md)]**
 
 ## Conclusion
 

@@ -1,4 +1,5 @@
-# Step 3: Build Dashboard-Ready Analytical Views
+# 🧭 Phase 3: BigQuery SQL Modeling & Data Transformation
+## 🔷 Step 3: Build Dashboard-Ready Analytical Views
 
 Create the analytical views required to support the Sales & Retail Looker Studio dashboard.
 
@@ -28,11 +29,11 @@ The views will demonstrate practical analytical SQL including:
 
 The views will be developed and validated individually:
 
-Build and validate `vw_sales_monthly` **[[View Implementation Details](documentation/03_1_vw_sales_monthly.md)]** ✔
+Build and validate `vw_sales_monthly` **[[View Implementation Process](documentation/03_1_vw_sales_monthly.md)]** ✔
 
-Build and validate `vw_customer_analysis` **[[View Implementation Details](documentation/03_2_vw_customer_analysis.md)]** (⏳Pending)
+Build and validate `vw_customer_analysis` **[[View Implementation Process](documentation/03_2_vw_customer_analysis.md)]** ✔
    
-Build and validate `vw_location_analysis` **[[View Implementation Details](documentation/03_3_vw_location_analysis.md)]** (⏳Pending)
+Build and validate `vw_location_analysis` (⏳Pending)
 
 Each view will have a clearly defined grain and will be derived from the validated `vw_sales_analysis_base` foundation.
 

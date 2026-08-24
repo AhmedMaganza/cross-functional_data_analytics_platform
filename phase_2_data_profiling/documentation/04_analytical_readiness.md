@@ -1,4 +1,5 @@
-# Step 4: Analytical Readiness Assessment
+# 🧭 Phase 2: Data Profiling & Analytical Readiness
+## 🔷 Step 4: Analytical Readiness Assessment
 
 Assess whether the warehouse is ready to support the analytical requirements and KPIs defined in Phase 1.
 This step consolidates the findings from **Steps 1–3** and maps them to the planned Sales & Retail analysis and Looker Studio dashboard.

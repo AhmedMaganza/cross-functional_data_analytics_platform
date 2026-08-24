@@ -1,4 +1,5 @@
-## Step 3.1: Build the Monthly Sales Analytical View (`vw_sales_monthly`)
+# 🧭 Phase 3: BigQuery SQL Modeling & Data Transformation
+## 🔷 Step 3: Build Dashboard-Ready Analytical Views </br></br> 🔷🔷 Step 3.1: Build the Monthly Sales Analytical View (`vw_sales_monthly`)
 
 Create `vw_sales_monthly` as the primary time-based analytical view for the Sales & Retail dashboard. The view aggregates the transaction-level `vw_sales_analysis_base` data to one row per calendar month and provides the core sales KPIs required for time-series analysis.
 
@@ -23,7 +24,7 @@ The view is built from `vw_sales_analysis_base` which was created in Step 2, rat
 ```text
 Warehouse → vw_sales_analysis_base → vw_sales_monthly → Looker Studio
 ```
-</br>
+>  ### SQL File: [`03_1_sql_vw_sales_monthly.sql`](../sql/03_1_sql_vw_sales_monthly.sql)
 
 <img width="500" height="550" alt="03_1_vw_sales_monthly_1" src="../snapshots/03_1_vw_sales_monthly_1.png" />
 
@@ -31,8 +32,6 @@ Warehouse → vw_sales_analysis_base → vw_sales_monthly → Looker Studio
 </br>
 
 <img width="700" height="400" alt="03_1_vw_sales_monthly_2" src="../snapshots/03_1_vw_sales_monthly_2.png" />
-
-
 
 ### Validation
 
@@ -44,11 +43,8 @@ The view is validated against `vw_sales_analysis_base` to confirm:
 * Transaction consistency
 * Customer counts
 
+>  ### SQL File: [`03_1_validation_vw_sales_monthly.sql`](../sql/03_1_validation_vw_sales_monthly.sql)
+
 <img width="935" height="750" alt="03_1_vw_sales_monthly_3" src="../snapshots/03_1_vw_sales_monthly_3.png" />
 
-
-
-### Deliverables
-
->  ### SQL File: [`03_1_sql_vw_sales_monthly.sql`](../sql/03_1_sql_vw_sales_monthly.sql)
->  ### SQL File: [`03_1_validation_vw_sales_monthly.sql`](../sql/03_1_validation_vw_sales_monthly.sql)
+### Next: [[Step 3.2: Build the Customer Analysis View](03_2_vw_customer_analysis.md)]

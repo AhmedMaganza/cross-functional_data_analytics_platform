@@ -1,4 +1,5 @@
-# Step 1: Schema & Data Inventory
+# 🧭 Phase 2: Data Profiling & Analytical Readiness
+## 🔷 Step 1: Schema & Data Inventory
 
 Establish the structure of the existing BigQuery data warehouse before performing detailed data profiling and quality checks.
 

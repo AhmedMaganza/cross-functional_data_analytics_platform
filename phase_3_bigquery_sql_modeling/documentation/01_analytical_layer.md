@@ -1,4 +1,5 @@
-# Step 1: Analytical Layer Design
+# 🧭 Phase 3: BigQuery SQL Modeling & Data Transformation
+## 🔷 Step 1: Analytical Layer Design
 
 Define the analytical-layer architecture for the **Sales & Retail** domain based on the business requirements and dashboard requirements established in earlier phases.
 

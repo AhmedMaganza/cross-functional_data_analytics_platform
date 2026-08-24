@@ -1,4 +1,5 @@
-# Step 2: Build the Base Analytical View
+# 🧭 Phase 3: BigQuery SQL Modeling & Data Transformation
+## 🔷 Step 2: Build the Base Analytical View
 
 Create the foundational transaction-level analytical view for the Sales & Retail domain using BigQuery SQL.
 

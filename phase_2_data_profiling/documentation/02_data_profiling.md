@@ -1,4 +1,5 @@
-# Step 2: Table-Level Data Profiling
+# 🧭 Phase 2: Data Profiling & Analytical Readiness
+## 🔷 Step 2: Table-Level Data Profiling
 
 Profile the actual contents of the warehouse tables to understand their volume, uniqueness, distributions, and key data characteristics before performing formal data-quality assessment.
 

@@ -1,4 +1,4 @@
-# Phase 3: BigQuery SQL Modeling & Data Transformation
+# 🧭 Phase 3: BigQuery SQL Modeling & Data Transformation
 
 Phase 3 transforms the validated **Sales & Retail** warehouse data into a clean, reusable analytical layer using **BigQuery SQL**.
 
@@ -31,7 +31,7 @@ Key activities:
 * Determine the views required by the Looker Studio dashboard
 * Define transformation and business logic
 
-**[[View Documentation](documentation/01_analytical_layer.md)]**
+**[[View Implementation Process](documentation/01_analytical_layer.md)]**
 
 
 
@@ -48,7 +48,7 @@ Key activities:
 * Calculate reusable metrics
 * Implement core sales business logic
 
-**[[View Documentation](documentation/02_base-analytical_view.md)]**
+**[[View Implementation Process](documentation/02_base-analytical_view.md)]**
 
 
 ### Step 3: Build Dashboard-Ready Analytical Views (⏳In Progress)
@@ -73,7 +73,7 @@ Key techniques may include:
 * Contribution analysis
 * Customer analytics
 
-**[[View Documentation](documentation/03_dashboard_ready_views.md)]**
+**[[View Implementation Process](documentation/03_dashboard_ready_views.md)]**
 
 
 ### Step 4: Analytical Layer Validation (⏳Pending)
@@ -93,7 +93,7 @@ Key checks include:
 * Aggregation consistency
 * Source-to-output consistency
 
-**[[View Documentation](documentation/04_analytical_layer_validation.md)]**
+**[[View Implementation Process](documentation/04_analytical_layer_validation.md)]**
 
 ## Phase 3 Repo Structure
 ```text

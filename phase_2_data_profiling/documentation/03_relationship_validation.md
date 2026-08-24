@@ -1,4 +1,6 @@
-# Step 3: Relationship Validation
+# 🧭 Phase 2: Data Profiling & Analytical Readiness
+## 🔷 Step 3: Relationship Validation
+
 Validate that the relationships between the fact table (`trade_and_retail`) and shared dimensions.
 
 ## Validation Areas
