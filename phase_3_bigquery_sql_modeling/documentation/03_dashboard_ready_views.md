@@ -33,7 +33,7 @@ Build and validate `vw_sales_monthly` **[[View Implementation Process](03_1_vw_s
 
 Build and validate `vw_customer_analysis` **[[View Implementation Process](03_2_vw_customer_analysis.md)]** ✔
    
-Build and validate `vw_location_analysis` (⏳Pending)
+Build and validate `vw_location_analysis` **[[View Implementation Process](03_3_vw_location_analysis.md)]** ✔
 
 Each view will have a clearly defined grain and will be derived from the validated `vw_sales_analysis_base` foundation.
 
