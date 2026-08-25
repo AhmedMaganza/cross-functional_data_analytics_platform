@@ -75,26 +75,6 @@ Key techniques may include:
 
 **[[View Implementation Process](documentation/03_dashboard_ready_views.md)]**
 
-
-### Step 4: Analytical Layer Validation (⏳Pending)
-
-Validate that the analytical views correctly represent the source data and business logic.
-
-Validation will focus on **transformation accuracy**, rather than repeating the data-quality profiling already completed in Phase 2.
-
-Key checks include:
-
-* Revenue reconciliation
-* Quantity reconciliation
-* Transaction reconciliation
-* Customer reconciliation
-* Date coverage
-* Grain validation
-* Aggregation consistency
-* Source-to-output consistency
-
-**[[View Implementation Process](documentation/04_analytical_layer_validation.md)]**
-
 ## Phase 3 Repo Structure
 ```text
 
@@ -103,16 +83,19 @@ Key checks include:
 │       │       ├── 02_checks_sales_analysis_base.sql
 │       │       ├── 02_sql_sales_analysis_base.sql
 │       │       ├── 03_1_sql_vw_sales_monthly.sql
-│       │       └── 03_1_validation_vw_sales_monthly.sql
+│       │       ├── 03_1_validation_vw_sales_monthly.sql
+│       │       ├── 03_2_checks_vw_customer_analysis.sql
+│       │       ├── 03_2_sql_vw_customer_analysis.sql
+│       │       ├── 03_3_checks_vw_locations_analysis.sql
+│       │       └── 03_3_sql_vw_location_analysis.sql
 |       |
 │       ├── documentation/
 │       |       ├── 01_analytical_layer.md
 │       |       ├── 02_base-analytical_view.md
-│       |       ├── 03_dashboard_ready_views.md
-│       |       |        ├── 03_1_vw_sales_monthly.md
-│       |       |        ├── 03_2_vw_customer_analysis.md
-│       |       |        ├── 03_3_vw_location_analysis.md
-│       |       └── 04_analytical_layer_validation.md
+│       |       └── 03_dashboard_ready_views.md
+│       |               ├── 03_1_vw_sales_monthly.md
+│       |               ├── 03_2_vw_customer_analysis.md
+│       |               └── 03_3_vw_location_analysis.md
 │       └── snapshots/
 |               ├── ...
 ```
